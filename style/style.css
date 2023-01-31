@@ -1,0 +1,170 @@
+/* основний колір тексту #212121; */
+
+/*другорядний колір тексту #757575; */
+
+/* білий колір #FFFFFF; */
+
+/* синій (акцент) колір #2196F3; */
+
+/* другорядний колір фону  #F5F4FA; */
+
+/* колір фону блок герой і футор  #2F303A; */
+
+/* колір логотипу #000000 .. #2196F3; */
+
+:root {
+  --primart-text-color: #595959;
+  --title-text-color: #757575;
+  --accent-color: rgb(255, 126, 6);
+  --futer-bg-color: #2f303a;
+  --text-color: #000000;
+  --background-color: #fff;
+  --background-color-team: #f5f4fa;
+  --contener-color: #eeeee;
+  --icon-color: #afb1b8;
+  --items-shadow: #eeeeee;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  height: 1349px;
+  margin: 0 auto;
+}
+
+.main-content {
+  background-color: var(--background-color);
+  box-shadow: 6px 6px 20px rgb(0 0 0 / 10%);
+}
+
+.abaut {
+  background: var(--background-color);
+  margin: 88px 215px 51px 88px;
+}
+
+.abaut-position {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.about-name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.22;
+  color: var(--text-color);
+  margin-bottom: 25px;
+}
+
+.abut-deskription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primart-text-color);
+  width: 400px;
+}
+
+.projects {
+  background-color: var(--background-color);
+  margin-left: 88px;
+}
+
+.project_link {
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.projects-list {
+  margin-top: 20px;
+}
+
+.project2 {
+  margin-top: 20px;
+}
+
+.work {
+  background: white;
+  margin: 51px 206px 160px 88px;
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-top: 18px;
+  color: var(--text-color);
+}
+
+.company_color {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--accent-color);
+}
+
+.paragraf {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  margin-top: 10px;
+}
+
+.paragraf-list {
+  padding: 0px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.paragraf-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.education {
+  margin-top: 18px;
+}
+
+.education-item {
+  color: var(--accent-color);
+  margin-top: 10px;
+}
+
+.sidebar {
+  background: #1e2939;
+  padding-top: 40px;
+  width: 370px;
+}
+
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
